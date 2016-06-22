@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/app_name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="@string/version"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textReleaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="@string/release_date"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textAboutGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/about_game"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textAboutMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/about_me"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/e_mail"
+                android:textColor="#0000FF"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textVkPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/vk_page"
+                android:textColor="#0000FF"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+            
+            <TextView
+                android:id="@+id/textMyFirstGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/my_first_game"
+                android:textSize="15sp" />
+            
+               <TextView
+                android:id="@+id/textTouchGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/touch_game"
+                android:textColor="#0000FF"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+            
+
+            <Button
+                android:id="@+id/to_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/exit_background"
+                android:text=""
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

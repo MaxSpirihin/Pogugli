@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3d5ff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/stat_in_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:background="@drawable/big_stat_background" />
+
+    <ToggleButton
+        android:id="@+id/sound_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/play"
+        android:layout_alignParentLeft="true"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/sound_on_off_button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/main_menu" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/stat_in_m"
+        android:background="@drawable/play_background" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sound_on_off"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/info_background" />
+
+</RelativeLayout>
